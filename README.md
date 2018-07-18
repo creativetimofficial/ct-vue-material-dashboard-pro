@@ -219,7 +219,7 @@ At present, we officially aim to support the last two versions of the following 
 ## Resources
 - [Live Preview](https://demos.creative-tim.com/vue-material-dashboard-pro)
 - Buy Page: https://www.creative-tim.com/product/vue-material-dashboard-pro
-- Documentation is [here](https://demos.creative-tim.com/material-dashboard-pro/documentation)
+- Documentation is [here](https://demos.creative-tim.com/vue-material-dashboard-pro/documentation)
 - License Agreement: https://www.creative-tim.com/license
 - Support: https://www.creative-tim.com/contact-us
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-vue-material-dashboard-pro/issues)
