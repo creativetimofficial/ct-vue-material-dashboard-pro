@@ -69,7 +69,7 @@ Quick start options:
 
 
 ## Documentation
-The documentation for the Material Dashboard Pro is hosted at our [website](https://demos.creative-tim.com/material-dashboard-pro/documentation).
+The documentation for the Material Dashboard Pro is hosted at our [website](https://demos.creative-tim.com/vue-material-dashboard-pro/documentation).
 
 
 ## File Structure
