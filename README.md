@@ -4,7 +4,7 @@
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-vue-material-dashboard-pro.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-vue-material-dashboard-pro/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-vue-material-dashboard-pro.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-vue-material-dashboard-pro/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/material-dashboard) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-![Product Gif](github/product.gif)
+![Product Gif](https://s3.amazonaws.com/creativetim_bucket/github/gif/vue-material-dashboard-pro.gif)
 
 Vue Material Dashboard PRO is a beautiful resource built over [Vue Material](https://vuematerial.io/) and [Vuejs](https://vuejs.org/v2/guide/). It will help you get started developing dashboards in no time. Vue Material Dashboard PRO is the official Vuejs version of the Original [Material Dashboard](https://www.creative-tim.com/product/material-dashboard). Using the Dashboard is pretty simple but requires basic knowledge of Javascript, [Vuejs](https://vuejs.org/v2/guide/) and [Vue Router](https://router.vuejs.org/en/).
 
@@ -45,22 +45,18 @@ Let us know your thoughts below. And good luck with development!
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-pro-angular2)
 
 
-| Vue | React |
-| --- | --- |
-| [![Vue Material Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/87/thumb/opt_mdp_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-material-dashboard-pro) | [![Material Dashboard Pro React](https://s3.amazonaws.com/creativetim_bucket/products/80/thumb/opt_mdp_react_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro-react)  
-
-
-| Angular | HTML |
-| --- | --- |
-| [![Material Dashboard Pro Angular](https://s3.amazonaws.com/creativetim_bucket/products/55/thumb/opt_mdp_angular_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro-angular2) | [![Material Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/51/thumb/opt_mdp_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro)
+| Vue | React | Angular | HTML |
+| --- | --- | --- | --- |
+| [![Vue Material Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/87/thumb/opt_mdp_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-material-dashboard-pro) | [![Material Dashboard Pro React](https://s3.amazonaws.com/creativetim_bucket/products/80/thumb/opt_mdp_react_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro-react)  | [![Material Dashboard Pro Angular](https://s3.amazonaws.com/creativetim_bucket/products/55/thumb/opt_mdp_angular_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro-angular2) | [![Material Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/51/thumb/opt_mdp_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro)
 
 ## Demo
 
 - [Start page](https://demos.creative-tim.com/vue-material-dashboard-pro)
-- [User profile page](https://demos.creative-tim.com/material-dashboard-pro/#/user)
+- [Widgets page](https://demos.creative-tim.com/vue-material-dashboard-pro/#/widgets)
 - [Tables page ](https://demos.creative-tim.com/vue-material-dashboard-pro/#/table-list/extended)
 - [Maps Page](https://demos.creative-tim.com/vue-material-dashboard-pro/#/maps/google)
 - [Notifications page](https://demos.creative-tim.com/vue-material-dashboard-pro/#/components/notifications)
+- [Charts page](https://demos.creative-tim.com/vue-material-dashboard-pro/#/charts)
 
 [View More](https://demos.creative-tim.com/vue-material-dashboard-pro).
 
@@ -248,7 +244,9 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Useful Links
 
- - [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
+- [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
+
+- [Vue products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes) from Creative Tim
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 
