@@ -1,7 +1,7 @@
 # [Vue Material Dashboard PRO](https://demos.creative-tim.com/vue-material-dashboard-pro) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Vue%20Material%20Dashboard%20PRO%20by%20Creative%20Tim%20https%3A//demos.creative-tim.com/vue-material-dashboard-pro%20via%20%40CreativeTim)
 
 
-![version](https://img.shields.io/badge/version-1.5.2-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-vue-material-dashboard-pro.svg)](https://github.com/creativetimofficial/ct-vue-material-dashboard-pro/issues?q=is%3Aopen+is%3Aissue) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-vue-material-dashboard-pro.svg?maxAge=259200)](https://github.com/creativetimofficial/ct-vue-material-dashboard-pro/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/material-dashboard) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.com/invite/FhCJCaHdQa)
+![version](https://img.shields.io/badge/version-1.5.2-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-vue-material-dashboard-pro.svg)](https://github.com/creativetimofficial/ct-vue-material-dashboard-pro/issues?q=is%3Aopen+is%3Aissue) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-vue-material-dashboard-pro.svg?maxAge=259200)](https://github.com/creativetimofficial/ct-vue-material-dashboard-pro/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/material-dashboard) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](https://s3.amazonaws.com/creativetim_bucket/github/gif/vue-material-dashboard-pro.gif)
 
@@ -17,6 +17,8 @@ During the development of this dashboard, we have used many existing resources f
 - [Chartist](https://gionkunz.github.io/chartist-js/) for the wonderful charts
 - [Tristan Edwards](https://twitter.com/t4t5) for the [Sweet Alert2](https://sweetalert2.github.io/)
 - Kirill Lebedev for [jVector Maps](http://jvectormap.com/)
+- [Nepcha Analytics](https://nepcha.com?ref=readme) for the analytics tool. Nepcha is already integrated with Vue Material Dashboard PRO You can use it to gain insights into your sources of traffic.
+
 
 
 Let us know your thoughts below. And good luck with development!
@@ -84,128 +86,127 @@ vue-material-dashboard-pro/
 ├── postcss.config.js
 ├── public
 │   ├── img
-│   │   ├── faces
-│   │   └── flags
 │   └── index.html
-└── src
-    ├── App.vue
-    ├── assets
-    │   ├── css
-    │   └── scss
-    │       ├── material-dashboard.scss
-    │       └── md
-    ├── components
-    │   ├── AnimatedNumber.vue
-    │   ├── Badge.vue
-    │   ├── Cards
-    │   │   ├── ChartCard.vue
-    │   │   ├── GlobalSalesCard.vue
-    │   │   ├── LockCard.vue
-    │   │   ├── LoginCard.vue
-    │   │   ├── NavTabsCard.vue
-    │   │   ├── PricingCard.vue
-    │   │   ├── ProductCard.vue
-    │   │   ├── SignupCard.vue
-    │   │   ├── StatsCard.vue
-    │   │   └── TestimonialCard.vue
-    │   ├── Collapse.vue
-    │   ├── Dropdown.vue
-    │   ├── Inputs
-    │   │   └── IconCheckbox.vue
-    │   ├── Modal.vue
-    │   ├── NotificationPlugin
-    │   │   ├── Notification.vue
-    │   │   ├── Notifications.vue
-    │   │   └── index.js
-    │   ├── Pagination.vue
-    │   ├── SidebarPlugin
-    │   │   ├── SideBar.vue
-    │   │   ├── SidebarItem.vue
-    │   │   └── index.js
-    │   ├── Slider.vue
-    │   ├── Tables
-    │   │   └── GlobalSalesTable.vue
-    │   ├── Tabs.vue
-    │   ├── Timeline
-    │   │   ├── TimeLine.vue
-    │   │   └── TimeLineItem.vue
-    │   ├── Wizard
-    │   │   ├── Wizard.vue
-    │   │   ├── WizardTab.vue
-    │   │   └── throttle.js
-    │   ├── WorldMap
-    │   │   ├── AsyncWorldMap.vue
-    │   │   ├── WorldMap.vue
-    │   │   └── world_map.js
-    │   └── index.js
-    ├── globalComponents.js
-    ├── globalDirectives.js
-    ├── main.js
-    ├── material-dashboard.js
-    ├── pages
-    │   ├── Dashboard
-    │   │   ├── Calendar.vue
-    │   │   ├── Charts.vue
-    │   │   ├── Components
-    │   │   │   ├── Buttons.vue
-    │   │   │   ├── GridSystem.vue
-    │   │   │   ├── Icons.vue
-    │   │   │   ├── Notifications.vue
-    │   │   │   ├── Panels.vue
-    │   │   │   ├── SweetAlert.vue
-    │   │   │   └── Typography.vue
-    │   │   ├── Dashboard.vue
-    │   │   ├── Forms
-    │   │   │   ├── ExtendedForms.vue
-    │   │   │   ├── RegularForms.vue
-    │   │   │   ├── ValidationForms
-    │   │   │   │   ├── LoginForm.vue
-    │   │   │   │   ├── RangeValidationForm.vue
-    │   │   │   │   ├── RegisterForm.vue
-    │   │   │   │   └── TypeValidationForm.vue
-    │   │   │   ├── ValidationForms.vue
-    │   │   │   ├── Wizard
-    │   │   │   │   ├── FirstStep.vue
-    │   │   │   │   ├── SecondStep.vue
-    │   │   │   │   └── ThirdStep.vue
-    │   │   │   └── Wizard.vue
-    │   │   ├── Layout
-    │   │   │   ├── Content.vue
-    │   │   │   ├── ContentFooter.vue
-    │   │   │   ├── DashboardLayout.vue
-    │   │   │   ├── Extra
-    │   │   │   │   ├── MobileMenu.vue
-    │   │   │   │   └── UserMenu.vue
-    │   │   │   └── TopNavbar.vue
-    │   │   ├── Maps
-    │   │   │   ├── API_KEY.js
-    │   │   │   ├── FullScreenMap.vue
-    │   │   │   ├── GoogleMaps.vue
-    │   │   │   ├── VectorMaps.vue
-    │   │   │   ├── WorldMap.vue
-    │   │   │   └── world_map.js
-    │   │   ├── Pages
-    │   │   │   ├── AuthLayout.vue
-    │   │   │   ├── Lock.vue
-    │   │   │   ├── Login.vue
-    │   │   │   ├── Pricing.vue
-    │   │   │   ├── Register.vue
-    │   │   │   ├── RtlSupport.vue
-    │   │   │   ├── TimeLinePage.vue
-    │   │   │   ├── UserProfile
-    │   │   │   │   ├── EditProfileForm.vue
-    │   │   │   │   └── UserCard.vue
-    │   │   │   └── UserProfile.vue
-    │   │   ├── Tables
-    │   │   │   ├── ExtendedTables.vue
-    │   │   │   ├── PaginatedTables.vue
-    │   │   │   ├── RegularTables.vue
-    │   │   │   └── users.js
-    │   │   └── Widgets.vue
-    │   ├── FixedPlugin.vue
-    │   └── index.js
-    └── routes
-        └── routes.js
+├── src
+│   ├── App.vue
+│   ├── assets
+│   │   ├── css
+│   │   └── scss
+│   │       ├── material-dashboard.scss
+│   │       └── md
+│   ├── components
+│   │   ├── AnimatedNumber.vue
+│   │   ├── Badge.vue
+│   │   ├── Cards
+│   │   │   ├── ChartCard.vue
+│   │   │   ├── GlobalSalesCard.vue
+│   │   │   ├── LockCard.vue
+│   │   │   ├── LoginCard.vue
+│   │   │   ├── NavTabsCard.vue
+│   │   │   ├── PricingCard.vue
+│   │   │   ├── ProductCard.vue
+│   │   │   ├── SignupCard.vue
+│   │   │   ├── StatsCard.vue
+│   │   │   └── TestimonialCard.vue
+│   │   ├── Collapse.vue
+│   │   ├── Dropdown.vue
+│   │   ├── Inputs
+│   │   │   └── IconCheckbox.vue
+│   │   ├── Modal.vue
+│   │   ├── NotificationPlugin
+│   │   │   ├── Notification.vue
+│   │   │   ├── Notifications.vue
+│   │   │   └── index.js
+│   │   ├── Pagination.vue
+│   │   ├── SidebarPlugin
+│   │   │   ├── SideBar.vue
+│   │   │   ├── SidebarItem.vue
+│   │   │   └── index.js
+│   │   ├── Slider.vue
+│   │   ├── Tables
+│   │   │   └── GlobalSalesTable.vue
+│   │   ├── Tabs.vue
+│   │   ├── Timeline
+│   │   │   ├── TimeLine.vue
+│   │   │   └── TimeLineItem.vue
+│   │   ├── Wizard
+│   │   │   ├── Wizard.vue
+│   │   │   ├── WizardTab.vue
+│   │   │   └── throttle.js
+│   │   ├── WorldMap
+│   │   │   ├── AsyncWorldMap.vue
+│   │   │   ├── WorldMap.vue
+│   │   │   └── world_map.js
+│   │   └── index.js
+│   ├── globalComponents.js
+│   ├── globalDirectives.js
+│   ├── main.js
+│   ├── material-dashboard.js
+│   ├── pages
+│   │   ├── Dashboard
+│   │   │   ├── Calendar.vue
+│   │   │   ├── Charts.vue
+│   │   │   ├── Components
+│   │   │   │   ├── Buttons.vue
+│   │   │   │   ├── GridSystem.vue
+│   │   │   │   ├── Icons.vue
+│   │   │   │   ├── Notifications.vue
+│   │   │   │   ├── Panels.vue
+│   │   │   │   ├── SweetAlert.vue
+│   │   │   │   └── Typography.vue
+│   │   │   ├── Dashboard.vue
+│   │   │   ├── Forms
+│   │   │   │   ├── ExtendedForms.vue
+│   │   │   │   ├── RegularForms.vue
+│   │   │   │   ├── ValidationForms
+│   │   │   │   │   ├── LoginForm.vue
+│   │   │   │   │   ├── RangeValidationForm.vue
+│   │   │   │   │   ├── RegisterForm.vue
+│   │   │   │   │   └── TypeValidationForm.vue
+│   │   │   │   ├── ValidationForms.vue
+│   │   │   │   ├── Wizard
+│   │   │   │   │   ├── FirstStep.vue
+│   │   │   │   │   ├── SecondStep.vue
+│   │   │   │   │   └── ThirdStep.vue
+│   │   │   │   └── Wizard.vue
+│   │   │   ├── Layout
+│   │   │   │   ├── Content.vue
+│   │   │   │   ├── ContentFooter.vue
+│   │   │   │   ├── DashboardLayout.vue
+│   │   │   │   ├── Extra
+│   │   │   │   │   ├── MobileMenu.vue
+│   │   │   │   │   └── UserMenu.vue
+│   │   │   │   └── TopNavbar.vue
+│   │   │   ├── Maps
+│   │   │   │   ├── API_KEY.js
+│   │   │   │   ├── FullScreenMap.vue
+│   │   │   │   ├── GoogleMaps.vue
+│   │   │   │   ├── VectorMaps.vue
+│   │   │   │   ├── WorldMap.vue
+│   │   │   │   └── world_map.js
+│   │   │   ├── Pages
+│   │   │   │   ├── AuthLayout.vue
+│   │   │   │   ├── Lock.vue
+│   │   │   │   ├── Login.vue
+│   │   │   │   ├── Pricing.vue
+│   │   │   │   ├── Register.vue
+│   │   │   │   ├── RtlSupport.vue
+│   │   │   │   ├── TimeLinePage.vue
+│   │   │   │   ├── UserProfile
+│   │   │   │   │   ├── EditProfileForm.vue
+│   │   │   │   │   └── UserCard.vue
+│   │   │   │   └── UserProfile.vue
+│   │   │   ├── Tables
+│   │   │   │   ├── ExtendedTables.vue
+│   │   │   │   ├── PaginatedTables.vue
+│   │   │   │   ├── RegularTables.vue
+│   │   │   │   └── users.js
+│   │   │   └── Widgets.vue
+│   │   └── index.js
+│   └── routes
+│       └── routes.js
+├── vue.config.js
+
 ```
 
 ## Browser Support
@@ -224,6 +225,7 @@ At present, we officially aim to support the last two versions of the following 
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-vue-material-dashboard-pro/issues)
 - Vue Material Dashboard - [demo](https://www.creative-tim.com/product/vue-material-dashboard?ref=github-md-pro)
 - For Front End Development - [Material Kit Pro ](https://www.creative-tim.com/product/material-kit-pro?ref=github-md-pro)
+- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
 
 ## Reporting Issues
 We use GitHub Issues as the official bug tracker for the Material Dashboard Pro. Here are some advices for our users that want to report an issue:
